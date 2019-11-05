@@ -1,14 +1,21 @@
 {
-  "name": "test3",
+  "name": "@stavalfi/test3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private":true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "index.js",
+    "package.json",
+    "yarn.lock"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@stavalfi/test2": "^1.0.0"
+    "@stavalfi/test2": "^1.0.0",
+    "pnpapi": "^0.0.0"
   }
 }
